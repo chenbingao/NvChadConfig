@@ -46,6 +46,12 @@ return {
     },
   },
   {
+    "aznhe21/actions-preview.nvim",
+    config = function()
+      require "configs.actions_preview"
+    end,
+  },
+  {
     "j-hui/fidget.nvim",
     config = function()
       require "configs.fidget"
